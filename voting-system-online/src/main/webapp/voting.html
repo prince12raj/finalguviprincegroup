@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting System</title>
+    <link rel="stylesheet" href="css/voting.css">
+    <script>
+        function toggleZoom(img) {
+            img.classList.toggle("zoomed");
+        }
+
+        function goToCandidatePage() {
+            window.location.href = "candidate.html";
+        }
+    </script>
+</head>
+<body>
+    <header class="header">
+        <h1>Welcome to the Voting System</h1>
+        <p>Your vote is your voice. Participate in democracy and make a difference.</p>
+        <div class="header-buttons">
+            <button onclick="window.location.href='hindi.html'">हिंदी में देखें</button>
+            <button onclick="alert('Help Section Coming Soon')">Help</button>
+            <button onclick="alert('FAQs Coming Soon')">FAQs</button>
+        </div>
+    </header>
+    
+
+    <main class="content">
+        <section class="introduction">
+            <h2>About the Voting System</h2>
+            <p>
+                Voting is the foundation of a democratic society. It allows citizens to choose their leaders and influence 
+                decision-making. Modern voting systems, such as Electronic Voting Machines (EVMs), ensure security and accuracy.
+            </p>
+        </section>
+
+        <section class="images">
+            <h2>Understanding Electronic Voting Machines (EVMs)</h2>
+            <div class="image-gallery">
+                <img src="https://www.eci.gov.in/newimg/EVM/1.jpg" alt="EVM Image 1" onclick="toggleZoom(this)">
+                <img src="https://www.eci.gov.in/newimg/EVM/2.jpg" alt="EVM Image 2" onclick="toggleZoom(this)">
+                <img src="https://www.eci.gov.in/newimg/EVM/3.jpg" alt="EVM Image 3" onclick="toggleZoom(this)">
+                <img src="https://www.eci.gov.in/newimg/EVM/4.jpg" alt="EVM Image 4" onclick="toggleZoom(this)">
+            </div>
+        </section>
+
+        <section class="details">
+            <h2>Why Voting Matters</h2>
+            <p>
+                Voting empowers individuals to have a say in governance. It strengthens democracy by ensuring representation.
+                Every vote counts, and by participating, you contribute to the betterment of society.
+            </p>
+            <p>
+                Be informed about the candidates and choose wisely to shape the future.
+            </p>
+        </section>
+
+        <div class="button-container">
+            <button onclick="goToCandidatePage()">Choose Your Candidate</button>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>© 2024 Voting System | Empowering Democracy</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Contact Us</a>
+        </div>
+    </footer>
+    
+</body>
+</html>
