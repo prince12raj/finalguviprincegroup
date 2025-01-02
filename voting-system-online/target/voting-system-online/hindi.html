@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>मतदान प्रणाली</title>
+    <link rel="stylesheet" href="css/voting.css">
+    <script>
+        // Function to toggle zoom on images
+        function toggleZoom(img) {
+            img.classList.toggle("zoomed");
+        }
+
+        // Function to redirect to candidate selection page
+        function goToCandidatePage() {
+            window.location.href = "candidate.html";
+        }
+
+        // Function to show alert for other buttons
+        function showAlert(message) {
+            alert(message);
+        }
+    </script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <h1>मतदान प्रणाली में आपका स्वागत है</h1>
+        <p>आपका वोट आपकी आवाज़ है। लोकतंत्र में भाग लें और बदलाव लाएं।</p>
+        <div class="header-buttons">
+            <button onclick="window.location.href='voting.html'">अंग्रेजी में देखें</button>
+            <button onclick="showAlert('सहायता अनुभाग जल्द ही उपलब्ध होगा')">सहायता</button>
+            <button onclick="showAlert('प्रश्नोत्तरी अनुभाग जल्द ही उपलब्ध होगा')">प्रश्नोत्तरी</button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="content">
+        <section class="introduction">
+            <h2>मतदान प्रणाली के बारे में</h2>
+            <p>
+                मतदान एक लोकतांत्रिक समाज की नींव है। यह नागरिकों को अपने नेताओं को चुनने और निर्णय लेने की प्रक्रिया में भाग लेने का अधिकार देता है। 
+                आधुनिक मतदान प्रणाली, जैसे इलेक्ट्रॉनिक वोटिंग मशीन (EVM), सुरक्षा और सटीकता सुनिश्चित करती है।
+            </p>
+        </section>
+
+        <section class="images">
+            <h2>इलेक्ट्रॉनिक वोटिंग मशीन (EVM) को समझें</h2>
+            <div class="image-gallery">
+                <img src="https://www.eci.gov.in/newimg/EVM/1.jpg" alt="EVM छवि 1" onclick="toggleZoom(this)">
+                <img src="https://www.eci.gov.in/newimg/EVM/2.jpg" alt="EVM छवि 2" onclick="toggleZoom(this)">
+                <img src="https://www.eci.gov.in/newimg/EVM/3.jpg" alt="EVM छवि 3" onclick="toggleZoom(this)">
+                <img src="https://www.eci.gov.in/newimg/EVM/4.jpg" alt="EVM छवि 4" onclick="toggleZoom(this)">
+            </div>
+        </section>
+
+        <section class="details">
+            <h2>मतदान क्यों महत्वपूर्ण है</h2>
+            <p>
+                मतदान नागरिकों को शासन में अपनी राय देने का अधिकार देता है। यह प्रतिनिधित्व सुनिश्चित करके लोकतंत्र को मजबूत करता है।
+                प्रत्येक वोट की गिनती होती है, और भाग लेकर आप समाज की प्रगति में योगदान करते हैं।
+            </p>
+            <p>
+                उम्मीदवारों के बारे में जानकारी प्राप्त करें और समझदारी से भविष्य को आकार देने के लिए निर्णय लें।
+            </p>
+        </section>
+
+        <div class="button-container">
+            <button onclick="goToCandidatePage()">उम्मीदवार चुनें</button>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>© 2024 मतदान प्रणाली | लोकतंत्र को सशक्त बनाना</p>
+        <div class="footer-links">
+            <a href="#" onclick="showAlert('गोपनीयता नीति जल्द ही उपलब्ध होगी')">गोपनीयता नीति</a>
+            <a href="#" onclick="showAlert('सेवा की शर्तें जल्द ही उपलब्ध होंगी')">सेवा की शर्तें</a>
+            <a href="#" onclick="showAlert('हमसे संपर्क करें: support@votingsystem.com')">हमसे संपर्क करें</a>
+        </div>
+    </footer>
+</body>
+</html>

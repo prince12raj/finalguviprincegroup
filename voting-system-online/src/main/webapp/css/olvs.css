@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
+                url('https://electionbuddy.com/wp-content/uploads/2022/01/Voting-image-6-scaled.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left; /* Align the background to the left half */
+    background-attachment: fixed;
+    background-clip: content-box;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.header-content img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 600;
+    color: #00bcd4;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 50px;
+}
+
+.form-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    width: 300px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    font-size: 14px;
+    transition: box-shadow 0.3s ease;
+}
+
+input:focus {
+    box-shadow: 0 0 10px #00bcd4;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background: #00bcd4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background: #008c9e;
+    transform: scale(1.05);
+}
+
+a {
+    color: #00bcd4;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.democracy-section {
+    max-width: 800px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    color: #eee;
+    line-height: 1.8;
+    margin-top: 70px; /* Adds extra space above the section */
+}
+
+.democracy-section h2 {
+    color: #00bcd4;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    text-align: center;
+    color: #bbb;
+    margin-top: 250px; /* Increased margin for more space above the footer */
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.footer-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.footer-text p {
+    margin: 5px 0;
+    line-height: 1.6;
+}
