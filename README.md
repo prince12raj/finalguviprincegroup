@@ -31,6 +31,7 @@ Project Structure and Location Details
 #Web Application Files
 
 1. Location: webapp/view/
+2. Location: webapp/view/auth/
 
 Description: All JSP pages are located in this folder.
 
