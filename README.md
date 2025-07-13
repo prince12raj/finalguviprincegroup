@@ -1,30 +1,8 @@
 Project Folder location And Members Details 
 
-Team Members and Responsibilities
-
 1. Prince Raj
 
-Role: Team Leader
-
 Contributions: Backend and Frontend Development
-
-2. Abbhinav Mishra
-
-Role: Developer
-
-Contributions: Backend and Frontend Development
-
-3 .Hiresh Ranjan
-
-Role: Database Manager
-
-Contributions: SQL Management
-
-4. Aditya Raj
-
-Role: Documentation Manager
-
-Contributions: Project Documentation
 
 Project Structure and Location Details
 
