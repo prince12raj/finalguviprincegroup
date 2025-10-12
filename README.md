@@ -1,6 +1,6 @@
 Project Folder location And Members Details 
 
-1. Prince Raj
+1. Priyam Mishra ,Prince Raj
 
 Contributions: Backend and Frontend Development
 
